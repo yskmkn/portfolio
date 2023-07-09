@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>yskmkn Portfolio</title>
+    <meta content="yskmknポートフォリオサイト" name="description" />
+    <meta content="telephone=no" name="format-detection" />
+    <link href="img/favicon.ico" rel="icon" />
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Inter:wght@400;500;700&family=Noto+Sans+JP&family=Zen+Maru+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header inner">
+      <h1 class="title">
+        <a href="index.html">yskmkn Portfolio</a>
+      </h1>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-items">
+            <a href="index.html#services">サービス内容</a>
+          </li>
+          <li class="header-nav-items">
+            <a href="index.html#about">自己紹介</a>
+          </li>
+          <li class="header-nav-items">
+            <a href="index.html#contact">お問い合わせ</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- <div class="btn"> -->
+      <!-- <a href="index.html#form" class="btn-i">i</a> -->
+      <!-- </div> -->
+      <div class="btn">
+        <a class="btn-i" href="index.html#contact">
+          <p class="circle-text">
+            <span>お</span><span>問</span><span>い</span><span>あ</span
+            ><span>わ</span><span>せ</span>
+          </p>
+          <p class="i">i</p></a
+        >
+      </div>
+    </header>
+    <!-- キービジュアル -->
+    <div class="kv-box inner">
+      <div class="kv-box-txt">
+        漠然としたイメージからでも<br />
+        製作承ります
+      </div>
+    </div>
+    <!-- main -->
+    <main>
+      <!-- サービス内容 -->
+      <section class="services inner-s section-wrap" id="services">
+        <h2 class="section-ttl">サービス内容</h2>
+        <ul class="services-contents">
+          <li class="services-item">Web制作</li>
+          <li class="services-item">
+            HTML・CSS<br class="sp_br" />
+            コーディング
+          </li>
+          <li class="services-item">ホームページ修正</li>
+          <li class="services-item">
+            ホームページ<br class="sp_br" />
+            運用保守
+          </li>
+        </ul>
+      </section>
+      <!-- 制作物 -->
+      <section class="works inner section-wrap" id="works">
+        <h2 class="section-ttl">制作物</h2>
+        <div class="works-contents">
+          <div class="works-item">
+            <img alt="work1" class="works-img" src="./img/business1.jpg" />
+            <h3>タイトル</h3>
+            <p>制作期間</p>
+          </div>
+          <div class="works-item">
+            <img alt="work1" class="works-img" src="./img/business1.jpg" />
+            <h3>タイトル</h3>
+            <p>制作期間</p>
+          </div>
+          <div class="works-item">
+            <img alt="work1" class="works-img" src="./img/business1.jpg" />
+            <h3>タイトル</h3>
+            <p>制作期間</p>
+          </div>
+        </div>
+      </section>
+      <!-- 自己紹介 -->
+      <section class="about inner section-wrap" id="about">
+        <h2 class="section-ttl">自己紹介</h2>
+        <h3>YUSUKE MAKINO</h3>
+        <div class="about-txt">
+          <p>
+            この度は、ポートフォリオをご覧頂きありがとうございます。<br />
+            東京でWeb制作の活動をしています。<br />
+            ヒアリングを通して、ニーズや目的をしっかりと把握し、Web制作と言う形でお客様のご支援をしたいと考えております。<br />
+            漠然としたイメージでも構いません。お打ち合わせを通して、お客様それぞれに最適なWeb制作をご提供できればと思います。<br />
+            ご依頼頂いた際は、きめ細やかで誠実に対応し、ご期待に応えられるよう尽力いたします。
+          </p>
+        </div>
+      </section>
+      <!-- お問い合わせ -->
+      <section class="contact inner section-wrap" id="contact">
+        <h2 class="section-ttl">お問い合わせ</h2>
+        <form action="" class="contact-form">
+          <dl class="form-body">
+            <dd>
+              <div class="form-unit">
+                <dl>
+                  <dt class="form-unit-head">お名前</dt>
+                  <dd class="form-unit-contents">
+                    <input
+                      class="form-input"
+                      placeholder="山田　太郎"
+                      type="text"
+                    />
+                  </dd>
+                </dl>
+              </div>
+              <div class="form-unit">
+                <dl>
+                  <dt class="form-unit-head">メールアドレス</dt>
+                  <dd class="form-unit-contents">
+                    <input
+                      class="form-input"
+                      placeholder="yamada@example.com"
+                      type="email"
+                    />
+                  </dd>
+                </dl>
+              </div>
+              <div class="form-unit">
+                <dl>
+                  <dt class="form-unit-head">お問い合わせ内容</dt>
+                  <dd class="form-unit-contents">
+                    <textarea class="form-textarea" rows="6"></textarea>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+          </dl>
+          <input class="form-submit" type="submit" value="送信" />
+        </form>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <small class="footer-copyright">&copy; yskmkn</small>
+    </footer>
+  </body>
+</html>
