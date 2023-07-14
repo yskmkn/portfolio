@@ -154,6 +154,16 @@
           </dl>
           <input class="form-submit" type="submit" value="送信" />
         </form>
+        <script>
+    let submitted = false;
+
+    const page_transition = function () {
+        if(submitted){
+            window.location = 'thanks.html';
+        }
+    }
+</script>    
+<iframe name="hidden_iframe" style="display:none;" onload="page_transition()"></iframe>
       </section>
     </main>
     <!-- footer -->
