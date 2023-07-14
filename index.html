@@ -154,16 +154,17 @@
           </dl>
           <input class="form-submit" type="submit" value="送信" />
         </form>
-        <script>
-    let submitted = false;
+	<script type="text/javascript">
+		let submitted = false;
+	</script>
 
-    const page_transition = function () {
-        if(submitted){
-            window.location = 'https://yskmkn.github.io/portfolio/thanks.html';
-        }
-    }
-</script>    
-<iframe name="hidden_iframe" style="display:none;" onload="page_transition()"></iframe>
+	<iframe
+		name="hidden_iframe"
+		id="hidden_iframe"
+		style="display: none"
+		onload="if(submitted){window.location='https://yskmkn.github.io/portfolio/thanks.html';}"
+	></iframe>
+        
       </section>
     </main>
     <!-- footer -->
